@@ -4,6 +4,7 @@ lie.txt
 run away.txt
 what if it isnt about animal rights.txt
 train.txt
+killing the bull is optional.txt
 never wrestle the bull.txt
 whats it like to see a real bullfight.txt
 how is this different from gambling.txt
