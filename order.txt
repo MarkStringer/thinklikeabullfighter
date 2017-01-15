@@ -1,5 +1,6 @@
 introduction.txt
 start fights.txt
+dont be the bull.txt
 lie.txt
 run away.txt
 what if it isnt about animal rights.txt
