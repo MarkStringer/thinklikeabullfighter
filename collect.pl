@@ -12,7 +12,7 @@ my $saf = $/;
 
 while (<ORDER>)
 {
-	open (FILE, $_) || die "failed to open file";
+	open (FILE, $_) || die "failed to open file $_";
 	$/ = undef;
 	print <FILE>;
 	$/ = $saf;
