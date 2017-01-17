@@ -4,12 +4,12 @@ use Text::Markdown 'markdown';
 
 my $textFile = shift;
 
-open(FILE, '<:encoding(UTF-8)', $textFile) || die "Failed to open text file";
+open(FILE, '<', $textFile) || die "Failed to open text file";
 
-undef $/;
+##undef $/;
 
-my $text = <FILE>;
-
-my $html = markdown($text);
-
-print $html;
+while(my $text = <FILE>)
+{
+	my $html = markdown($text);
+	print $html;
+}
